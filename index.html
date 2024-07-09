@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  
+    <title>Document</title>
+    <style>
+        table ,th{
+            border: 2px solid black ;
+          
+            border-color: black;
+           
+        }
+        td{
+            border: top 4px;;
+            border-style:groove;
+            /* padding: 12px; */
+            padding-top: 12px;
+            padding-left: 30px;
+            
+        }
+        
+
+        tr:nth-last-child(even){
+            background-color: beige;
+        }
+        t:nth-last-child(odd){
+            background-color: #96D4D4;
+        }
+    </style>
+
+</head>
+<body>
+    <table style="width:100%">
+        <tr style=" background-color:#96D4D4">
+            <th style="width: 12px;">NAME</th>
+            <th style="width: 12px ;">Age</th>
+            <th style="width: 12px ;">college</th>
+        </tr>
+        <tr>
+            <td>surendhar</td>
+            <td>15</td>
+            <td>vsb</td>
+        </tr>
+        <tr>
+            <td>surya</td>
+            <td>8</td>
+            <td>vsb</td>
+        </tr>
+        <tr>
+            <td >pk</td>
+            <td>9</td>
+            <td>vsb</td>
+        </tr>    
+    
+    </table>
+    <br>
+    <br>
+    <table style="width:100%">
+        <tr style=" background-color:#96D4D4;">
+            <th style="width: 1%;">Name</th>
+            <th style="width: 1% ;">phone No</th>
+           
+        </tr>
+        <tr>
+            <td rowspan="2">surendhar</td>
+            <td>8056985611</td>
+        </tr>
+        <tr>
+            <td>805698531</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">surya</td>
+            <td>8776655443</td>
+        </tr>
+        <tr><td>5432292921</td></tr>
+        <tr>
+            <td rowspan="2">pk</td>
+            <td>9998988898</td>
+        </tr>
+        <tr>
+            <td>9998988898</td></tr>
+    </table>
+
+    <br>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend><br>
+            <img src="https://th.bing.com/th/id/OIP.OV1TdqCmvmjrEp1sB06sDwHaHa?rs=1&pid=ImgDetMin" alt="w3"><br><br>
+                <audio controls src="../Oru-Naalil---It-All-Comes-Down-To-this!.mp3"></audio><br><br>
+                
+                <video width="450px" height="300px" src="../Yennai Arindhaal - Unakkenna Venum Sollu Video _ Ajith_ Harris Jayaraj.mp4" controls></video><br><br>
+               <center> <embed width="42%" height="450px" src="../The_Things_You_Can_See_Only_When_You_Slow_Down-2.pdf"></center><br><br>
+        
+            <label for="fname"></label>Name:</label>
+        <input type="text" id="fname" name="fname" value="Kamalesh">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="username"> Username</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+        <label for="age">Age</label>
+        <input type='number' name="age" id="age">
+        <br><br>
+        <label for="Role">Role</label>
+        <select name="role" id="role">
+        <option value="SD">Software Developer</option>
+        <option value="cc">Cloud Engineer</option>
+        <option value="wd">Web Development</option>
+        
+    </select>
+    <input type="submit">
+    <br><br>
+
+    <ul style="list-style:armenian">
+        <li>specific Role for the Developer</li>
+        <li>cloud engineers requirement</li>
+        <li>web analytics</li>
+    </ul>
+    <ul style="list-style:circle">
+        <li>specific Role for the Developer</li>
+        <li>cloud engineers requirement</li>
+        <li>web analytics</li>
+    </ul>
+    <ul style="list-style:decimal">
+        <li>specific Role for the Developer</li>
+        <li>cloud engineers requirement</li>
+        <li>web analytics</li>
+    </ul>
+    <ul style="list-style:disc">
+        <li>specific Role for the Developer</li>
+        <li>cloud engineers requirement</li>
+        <li>web analytics</li>
+    </ul>
+<center id="center">ORDERED LIST</center>
+    <ol type="A">
+        <li>CSE</li>
+        <li>ECE</li>
+        <li>EEE</li>
+    </ol>
+    <ol type="1">
+        <li>CSE</li>
+        <li>ECE</li>
+        <li>EEE</li>
+    </ol>
+    <ol type="a">
+        <li>CSE</li>
+        <li>ECE</li>
+        <li>EEE</li>
+    </ol>
+    <ol type="I">
+        <li>CSE</li>
+        <li>ECE</li>
+        <li>EEE</li>
+    </ol>
+    <ol type="i">
+        <li>CSE</li>
+        <li>ECE</li>
+        <li>EEE</li>
+    </ol>
+    <br><br>
+    <dl><dt>CSE</dt>
+        <dd>Computer Science and Engineering</dd>
+    </dl>
+    <label for="color">Favorate Color</label>
+    <select name="color" id="color">
+        
+        <option value="violet">Violet</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>        
+        <option value="white">white</option>        
+        <option value="pink">Yellow</option>        
+    </select>
+    <br> 
+    <br>
+    <label for="Movie">Favorate Movie</label>
+    <input list="Favoratemovie" name ="datas" id ="datas">
+    <datalist id ="Favoratemovie">
+        <option value="DADA"></option>
+        <option value="STAR"></option>
+        <option value="KGF-2"></option>
+        <option value="AVESAYAM"></option>
+        <option value="Others"></option>
+    </input>
+    <input type="submit">
+    </fieldset>
+    </form>
+
+    <table>
+        <center id="center"><caption>SALARY</caption></center>
+        <tr style="background-color: #656565;">
+            <th style="width: 1%;">Staff Name</th>
+            <th style="width: 1%;" >Department</th>
+            <th style="width: 1%;">Position</th>
+            <th style="width: 1%;">Salary</th>
+        </tr>
+            <tr><td>K.Srinath yadav</td>
+            <td>CSE</td>
+            <td>HOD++</td>
+            <TD>1.2LAKH</TD>
+        </tr>
+        <tr>
+            <td>Ramoorty</td>
+            <td>CSBS</td>
+            <td>HOD++</td>
+            <TD>1.2LAKH</TD>
+        </tr>
+        <tr>
+            <td>Ponmalar rajan</td>
+            <td>CSE</td>
+            <td>JOLLY</td>
+            <TD>1.5LAKH</TD>
+        </tr>
+        <tfoot>
+            <td style="text-align: center;" colspan="3">TOTAL=</td>
+            <TD>3.9LAKH</TD>
+        </tfoot>
+    </table>
+    <h1 style="color: rgb(40, 158, 95);">SVG SHAPES</h1>
+    <svg width ="11200" height="20000">
+        <circle cx="45" cy="45" r="30" stroke="red" stroke-width="4" fill="pink"></circle>
+        <rect height="200px" width="220" x="170" y="40" rx=""  stroke="yellow" stroke-width="4" fill="blue"></rect>
+        
+    </svg>
+    
+</body>
+    
+</body>
+</html>
