@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(https://wallpaper.dog/large/10806272.jpg);
+    
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  enable-background: 45px;
+  
+}
+form{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+fname{
+    text-align: left;
+    background: aqua;
+}
+input{
+    background-color:wheat;
+    color:sienna;
+}
+label{
+    text-align: left;
+    color:slategrey;
+    
+}
+select{
+
+    color: rgb(0, 0, 0);
+    
+
+}
+div {
+    text-align: justify;
+}
+fame{
+    align-items: c;
+}
+email{
+    align-self: center;
+    a
+}
+
+.heart{
+    animation:pulses 2s 1s infinite;
+}
+@keyframes  pulses{
+    0%{
+    transform:scale(0.0);
+}
+    50%{
+    transform :scale(1.0);
+    }
+    100%{
+        transform:scale(0.0);
+    }
+
+}

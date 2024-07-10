@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
     <title>Document</title>
     <style>
@@ -19,6 +19,22 @@
             padding-left: 30px;
             
         }
+        .heart{
+            text-align: center;
+    animation:pulses 1s  infinite ;
+}
+@keyframes  pulses{
+    0%{
+    transform:scale(0);
+}
+    50%{
+    transform :scale(1.0);
+    }
+    100%{
+        transform:scale(0);
+    }
+
+}
         
 
         tr:nth-last-child(even){
@@ -56,7 +72,7 @@
     </table>
     <br>
     <br>
-    <table style="width:100%">
+    <!-- <table style="width:100%">
         <tr style=" background-color:#96D4D4;">
             <th style="width: 1%;">Name</th>
             <th style="width: 1% ;">phone No</th>
@@ -82,16 +98,18 @@
         <tr>
             <td>9998988898</td></tr>
     </table>
+    <img src="https://th.bing.com/th/id/OIP.OV1TdqCmvmjrEp1sB06sDwHaHa?rs=1&pid=ImgDetMin" alt="w3"><br><br>
+    <audio controls src="../Oru-Naalil---It-All-Comes-Down-To-this!.mp3"></audio><br><br>
+    
+    <video width="450px" height="300px" src="../Yennai Arindhaal - Unakkenna Venum Sollu Video _ Ajith_ Harris Jayaraj.mp4" controls></video><br><br>
+   <center> <embed width="42%" height="450px" src="../The_Things_You_Can_See_Only_When_You_Slow_Down-2.pdf"></center><br><br>
 
     <br>
-    <form>
+   
+ <form>
         <fieldset>
             <legend>Personal Information</legend><br>
-            <img src="https://th.bing.com/th/id/OIP.OV1TdqCmvmjrEp1sB06sDwHaHa?rs=1&pid=ImgDetMin" alt="w3"><br><br>
-                <audio controls src="../Oru-Naalil---It-All-Comes-Down-To-this!.mp3"></audio><br><br>
-                
-                <video width="450px" height="300px" src="../Yennai Arindhaal - Unakkenna Venum Sollu Video _ Ajith_ Harris Jayaraj.mp4" controls></video><br><br>
-               <center> <embed width="42%" height="450px" src="../The_Things_You_Can_See_Only_When_You_Slow_Down-2.pdf"></center><br><br>
+           
         
             <label for="fname"></label>Name:</label>
         <input type="text" id="fname" name="fname" value="Kamalesh">
@@ -189,7 +207,6 @@
     <input type="submit">
     </fieldset>
     </form>
-
     <table>
         <center id="center"><caption>SALARY</caption></center>
         <tr style="background-color: #656565;">
@@ -225,7 +242,17 @@
         <circle cx="45" cy="45" r="30" stroke="red" stroke-width="4" fill="pink"></circle>
         <rect height="200px" width="220" x="170" y="40" rx=""  stroke="yellow" stroke-width="4" fill="blue"></rect>
         
-    </svg>
+    </svg> -->
+
+    <div class="heart" >
+        <svg width="216" height="252" viewBox="0 0 216 252" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="216" height="252" fill="#F5F5F5"/>
+            <ellipse cx="63" cy="64.5" rx="63" ry="63.5" fill="#980979"/>
+            <ellipse cx="150.5" cy="64" rx="65.5" ry="64" fill="#980979"/>
+            <path d="M107.5 252L207.526 96H7.47407L107.5 252Z" fill="#980979"/>
+            </svg>
+    </div>
+    
     
 </body>
     
