@@ -37,9 +37,9 @@
             <input type="number" name="number" id="number" placeholder="9876543210"><br><br>
             <label id="dob" for="dob">D.O.B:&nbsp;</label>
             <input type="date" name="dob" id="dob"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@example.com"><br><br>
             <label for="uname">User Name:</label>
-            <input type="email" name="email" id="email"><br><br>
-            <label for="email">email:</label>
             <input type="text" name="uname" id="uname"><br><br>
             <label for="pass">Password:</label>
             <input type="password" name="pass" id="pass"><br><br>
@@ -47,49 +47,12 @@
             <input type="password" name="cpass" id="cpass"><br><br>
             <input type="submit" name="submit" id="submit">
             <div id="password-strength"></div>
+            <div id="email-validation"></div>
+            <div id="password-match"></div>
+        
         </fieldset>
     </form>
 
-    <script>
-        function checkPasswordStrength(password) {
-            if (password.length < 6) {
-                return "Weak";
-            } else {
-                let hasLetter = /[a-zA-Z]/.test(password);
-                let hasDigit = /[0-9]/.test(password);
-                if (hasLetter && hasDigit) {
-                    return "Strong";
-                } else {
-                    return "Medium";
-                }
-            }
-        }
-
-        function validateForm(event) {
-            event.preventDefault(); // Prevent form submission
-            const password = document.getElementById("pass").value;
-            const passwordStrength = checkPasswordStrength(password);
-            document.getElementById("password-strength").innerText = "Password Strength: " + passwordStrength;
-            return false;
-        }
-        function validateEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (emailRegex.test(email)) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-// Example usage
-const email = "example@example.com";
-if (validateEmail(email)) {
-    console.log("Valid email address");
-} else {
-    console.log("Invalid email address");
-}
-
-    </script>
+  <script src="../day 5/script.js"></script> 
 </body>
 </html>
